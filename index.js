@@ -17,8 +17,8 @@ function map(array, func){
 // }
 
 function reduce(array, funct, memo=0){
- if(memo===0) {return array.reduce((funct), memo)}
- else{return 
+ if(memo===0) {return array.reduce(funct)}
+ else {return array.reduce((funct), memo)}
 }
 
 // function reduce(array, functi){
